@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970183183797",
+    "firebase_url": "https://transfapp-765e6.firebaseio.com",
+    "project_id": "transfapp-765e6",
+    "storage_bucket": "transfapp-765e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970183183797:android:1922b8c20ac9d1f0",
+        "android_client_info": {
+          "package_name": "com.example.hackaton.transfapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970183183797-vgqv8um5o4c1qak9ojd4vokmaqlkvqvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackaton.transfapp",
+            "certificate_hash": "cdbf11eae1576a793ba8c74dacd67488a4f264aa"
+          }
+        },
+        {
+          "client_id": "970183183797-rrlfnp9nmnb0kfnkeq8997or6gl90jn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ8tJ1OzmKrkzQCzeeXV0CSIHCF_4VENY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970183183797-rrlfnp9nmnb0kfnkeq8997or6gl90jn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

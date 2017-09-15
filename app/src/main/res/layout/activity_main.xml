@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hackaton.transfapp.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/responses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            tools:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="No"
+            tools:textAllCaps="false" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="Refresh"
+        android:text="Refresh"
+        tools:textAllCaps="false" />
+
+    <WebView
+       android:id="@+id/webview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentTop="true"
+       android:layout_above="@+id/responses" />
+
+</RelativeLayout  >

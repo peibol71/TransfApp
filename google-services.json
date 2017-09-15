@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "164415418000",
+    "firebase_url": "https://my-awesome-firebase-34d04.firebaseio.com",
+    "project_id": "my-awesome-firebase-34d04",
+    "storage_bucket": "my-awesome-firebase-34d04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164415418000:android:1922b8c20ac9d1f0",
+        "android_client_info": {
+          "package_name": "com.example.hackaton.transfapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164415418000-9r79t7fh5aina6ck2r7rvvn5h038f3l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDch0lrOs7KqF9YjqrXNbQ00bKt-WHBs2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
